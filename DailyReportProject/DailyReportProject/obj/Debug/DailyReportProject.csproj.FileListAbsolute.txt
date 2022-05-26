@@ -1,0 +1,7 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\bin\Debug\DailyReportProject.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\bin\Debug\DailyReportProject.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\bin\Debug\DailyReportProject.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\obj\Debug\DailyReportProject.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\obj\Debug\DailyReportProject.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\obj\Debug\DailyReportProject.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\DailyReportProject\DailyReportProject\obj\Debug\DailyReportProject.pdb
