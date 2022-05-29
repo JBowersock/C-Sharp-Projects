@@ -1,0 +1,7 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\bin\Debug\BranchingAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\BranchingAssignment\BranchingAssignment\obj\Debug\BranchingAssignment.pdb
