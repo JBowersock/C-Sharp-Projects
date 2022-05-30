@@ -1,0 +1,6 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\bin\Debug\StringFunctions.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb
