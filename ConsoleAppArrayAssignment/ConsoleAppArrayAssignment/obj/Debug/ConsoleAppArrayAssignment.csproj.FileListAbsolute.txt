@@ -1,0 +1,7 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\bin\Debug\ConsoleAppArrayAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\bin\Debug\ConsoleAppArrayAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\bin\Debug\ConsoleAppArrayAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\obj\Debug\ConsoleAppArrayAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\obj\Debug\ConsoleAppArrayAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\obj\Debug\ConsoleAppArrayAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConsoleAppArrayAssignment\ConsoleAppArrayAssignment\obj\Debug\ConsoleAppArrayAssignment.pdb
