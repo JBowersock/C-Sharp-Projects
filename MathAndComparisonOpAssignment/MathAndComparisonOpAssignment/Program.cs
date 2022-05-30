@@ -35,14 +35,14 @@ namespace MathAndComparisonOpAssignment
 
             //#4. Prints string and displays calculation.
             Console.WriteLine("Annual salary of Person 1:"); //Prints string.
-            int salaryP1 = hourlyPay1 * hoursWorked1; //Multiplies user inputs.
+            int salaryP1 = hourlyPay1 * hoursWorked1 * 52; //Multiplies user inputs.
             Console.WriteLine(salaryP1); //Prints result.
 
             Console.WriteLine(); //Line Break.
 
             //#5. Prints string and displays calculation.
             Console.WriteLine("Annual salary of Person 2:"); //Prints string.
-            int salaryP2 = hourlyPay2 * hoursWorked2; //Multiplies user inputs.
+            int salaryP2 = hourlyPay2 * hoursWorked2 * 52; //Multiplies user inputs.
             Console.WriteLine(salaryP2); //Prints result.
 
             Console.WriteLine(); //Line Break.
