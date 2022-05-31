@@ -8,24 +8,29 @@ namespace ConsoleAppSixPartSubmission
         static void Main(string[] args)
         {
             //Part One
-            string[] stringColors = { "Red", "White", "Blue", "Silver", "Green" };
-            Console.WriteLine(": ");
-            string userText = Console.ReadLine();
+            Console.WriteLine("Please enter a word:");
+            string[] stringColor = { "Red", "White", "Blue", "Silver", "Green" };
+            string userInput = Console.ReadLine();
             Console.WriteLine(); // Line Break.
-            for (int a = 0; a < stringColors.Length; a++)
-            {
-                Console.WriteLine(stringColors[a] + " " + userText);
-            }
-                        Console.WriteLine(); //Line Break.
 
-            //Part Two: Infinite Loop (Pt.1)
+            for (int a = 0; a < stringColor.Length; a++) //Per the assignment, this loop is intended to add the user input to each list string.
+            {
+                stringColor[a] = stringColor[a] + " " + userInput; //This could be do shorter, as so: 'stringColor[a] += " " + userInput;'
+            }
+            for (int a = 0; a < stringColor.Length; a++) //Per the assignment, this loop is just to print the string. Verifying addion of user input to list in loop prior.
+            {
+                Console.WriteLine(stringColor[a]);
+            }
+                       Console.WriteLine(); //Line Break.
+
+            //Part Two: Infinite Loop *Intenitonally Infinite* (Pt.1)
             //var b = true;
             //while (b)
             //{
             //    Console.WriteLine("Hey ma! Look. No Hands!");
             //}
 
-            //Part Two: Infinite Loop (Pt.2)
+            //Part Two: Infinite Loop *Fixed* (Pt.2)
             var b = true;
             while (b)
             {
@@ -138,37 +143,17 @@ namespace ConsoleAppSixPartSubmission
             Console.WriteLine("Name something you'd find in a toolbox (lowercase):");
             string toolGuess = Console.ReadLine();
             Console.WriteLine(); //Line Break.
-            foreach (string y in toolBox)
+            int count = 0;
+            foreach (string tool in toolBox)
             {
-                if (toolGuess == "screwdriver")
+                count++;
+                if (count <= toolBox.Count)
                 {
-                    Console.WriteLine("Index Value: " + toolBox.IndexOf("screwdriver"));
-                    Console.ReadLine();
-                    break;
+                    Console.WriteLine(tool);
                 }
-                if (toolGuess == "wrench")
+                if (count == 4)
                 {
-                    Console.WriteLine("Index Value: " + toolBox.IndexOf("wrench"));
-                    Console.ReadLine();
-                    break;
-                }
-                if (toolGuess == "ratchet")
-                {
-                    Console.WriteLine("Index Value: " + toolBox.IndexOf("ratchet"));
-                    Console.ReadLine();
-                    break;
-                }
-                if (toolGuess == "socket")
-                {
-                    Console.WriteLine("Index Value: " + toolBox.IndexOf("socket"));
-                    Console.ReadLine();
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, that's not on the list.");
-                    Console.ReadLine();
-                    break;
+                    Console.WriteLine("ATTN: This item has already appeared in our list.");
                 }
             }
             Console.ReadLine();
