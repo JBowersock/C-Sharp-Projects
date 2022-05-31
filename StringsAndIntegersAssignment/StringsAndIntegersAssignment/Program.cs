@@ -8,15 +8,13 @@ namespace StringsAndIntegersAssignment
         static void Main(string[] args)
         {
             List<int> numberList = new List<int>() { 98, 96, 84, 70, 82, 34 }; //Integer List
-
             Console.WriteLine("Enter a number to divide each number in the list by:"); //Prints string.
 
-            int userNumber = Convert.ToInt32(Console.ReadLine()); //Requests user entry.
-
-            Console.WriteLine(); //Line Break.
-            Console.WriteLine("Results:"); //Prints string.
             try
             {
+                int userNumber = Convert.ToInt32(Console.ReadLine()); //Requests user entry.
+                Console.WriteLine(); //Line Break.
+                Console.WriteLine("Results:"); //Prints string.
                 for (int i = 0; i < numberList.Count; i++) //For Loop.
                 {
                 int result = numberList[i] / userNumber;
