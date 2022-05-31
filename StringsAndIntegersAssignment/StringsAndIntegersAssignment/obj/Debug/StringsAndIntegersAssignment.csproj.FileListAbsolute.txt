@@ -1,0 +1,7 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.pdb
