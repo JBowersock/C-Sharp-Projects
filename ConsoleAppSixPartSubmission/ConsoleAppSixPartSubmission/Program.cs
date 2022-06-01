@@ -17,9 +17,9 @@ namespace ConsoleAppSixPartSubmission
             {
                 stringColor[a] = stringColor[a] + " " + userInput; //This could be do shorter, as so: 'stringColor[a] += " " + userInput;'
             }
-            for (int a = 0; a < stringColor.Length; a++) //Per the assignment, this loop is just to print the string. Verifying addion of user input to list in loop prior.
+            foreach (string v in stringColor) //Per the assignment, this loop is just to print the string. Verifying addion of user input to list in loop prior.
             {
-                Console.WriteLine(stringColor[a]);
+                Console.WriteLine(v);
             }
                        Console.WriteLine(); //Line Break.
 
@@ -44,22 +44,21 @@ namespace ConsoleAppSixPartSubmission
 
             for (int c = 0; c < oneThroughTen.Length; c++)
             {
-                if (oneThroughTen[c] < 7)
-                {
-                    Console.WriteLine(oneThroughTen[c]);
-                }
+                Console.WriteLine(oneThroughTen[c]);
             }
                         Console.WriteLine(); //Line Break.
 
             //Part Three (Pt.2)
-            int[] elevenThroughTwenty = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+            //int[] elevenThroughTwenty = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
-            for (int d = 0; d < elevenThroughTwenty.Length; d++)
+            //for (int d = 0; d <= elevenThroughTwenty.Length; d++)
+            //{
+            //    Console.WriteLine(elevenThroughTwenty[d]);
+            //}
+
+            for (int i = 0; i <= 5; i++) //Note: '<=' does not work with .Length.
             {
-                if (elevenThroughTwenty[d] <= 18)
-                {
-                    Console.WriteLine(elevenThroughTwenty[d]);
-                }
+                Console.WriteLine(i);
             }
                         Console.WriteLine(); //Line Break.
 
@@ -104,56 +103,34 @@ namespace ConsoleAppSixPartSubmission
             Console.WriteLine("Your selection: ");
             string genreGuess = Console.ReadLine();
             Console.WriteLine(); //Line Break.
-            for (int x = 0; x < 1; x++)
+            for (int x = 0; x < musicGenre.Count; x++)
             {
-                if (genreGuess == "rock")
+                if (!musicGenre.Contains(genreGuess)) //Contains means 'does the user entry match any of the values in the array/list'.
                 {
-                    Console.WriteLine("Index Number: " + musicGenre.IndexOf("rock"));
-                    Console.ReadLine();
+                    Console.WriteLine("Your choice is not in the list");
                     break;
                 }
-                if (genreGuess == "metal")
+                if (musicGenre[x] == genreGuess)
                 {
-                    Console.WriteLine("Index Number: " + musicGenre.IndexOf("metal"));
-                    Console.ReadLine();
-                    break;
-                }
-                if (genreGuess == "country")
-                {
-                    Console.WriteLine("Index Number: " + musicGenre.IndexOf("country"));
-                    Console.ReadLine();
-                    break;
-                }
-                if (genreGuess == "rap")
-                {
-                    Console.WriteLine("Index Number: " + musicGenre.IndexOf("rap"));
-                    Console.ReadLine();
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, that's not on the list.");
-                    Console.ReadLine();
-                    break;
+                    Console.WriteLine("Index Number: " + x);
                 }
             }
 
             //Part Six
             List<string> toolBox = new List<string>() { "screwdriver", "wrench", "ratchet", "wrench", "socket" };
-            Console.WriteLine("Name something you'd find in a toolbox (lowercase):");
-            string toolGuess = Console.ReadLine();
             Console.WriteLine(); //Line Break.
-            int count = 0;
+            List<string> dupeList = new List<string>();
+
             foreach (string tool in toolBox)
             {
-                count++;
-                if (count <= toolBox.Count)
+                if (dupeList.Contains(tool))
                 {
-                    Console.WriteLine(tool);
+                    Console.WriteLine(tool + " : Item already displayed.");
                 }
-                if (count == 4)
+                else
                 {
-                    Console.WriteLine("ATTN: This item has already appeared in our list.");
+                    Console.WriteLine(tool + " : Item displayed once.");
+                    dupeList.Add(tool);                
                 }
             }
             Console.ReadLine();
