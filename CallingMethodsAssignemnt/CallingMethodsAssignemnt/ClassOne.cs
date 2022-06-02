@@ -8,20 +8,22 @@ namespace CallingMethodsAssignemnt
 {
     public class ClassOne //Class.
     {
-        public int Addition() //Method
+        //Method1
+        public int Addition(int userChoice) //Property is 'public'. Data Type is 'int'. Name is 'Addition'. Then gave the parameter 'int userChoice'.
         {
              return userChoice + 12; //Returns calculation.
         }
 
-        public int Subtract() //Method
+        //Method2
+        public int Subtract(int userChoice) //Property is 'public'. Data Type is 'int'. Name is 'Subtract'. Then gave the parameter 'int userChoice'.
         {
             return userChoice - 8; //Returns calculation.
         }
 
-        public int Multiply() //Method
+        //Method3
+        public int Multiply(int userChoice) //Property is 'public'. Data Type is 'int'. Name is 'Multiply'. Then gave the parameter 'int userChoice'.
         {
             return userChoice * 3; //Returns calculation.
         }
     }
-    //public { get; set; } 
 }
