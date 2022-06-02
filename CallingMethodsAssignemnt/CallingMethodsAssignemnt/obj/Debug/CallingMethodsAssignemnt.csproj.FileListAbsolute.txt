@@ -1,0 +1,2 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.csproj.CoreCompileInputs.cache
