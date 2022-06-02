@@ -19,14 +19,19 @@ namespace CallingMethodsAssignemnt
             int varSub = assignment.Subtract(userChoice); //Integer variable. Calls instantiated method. Parameter 'int userChoice'.
             int varMul = assignment.Multiply(userChoice); //Integer variable. Calls instantiated method. Parameter 'int userChoice'.
 
-            Console.WriteLine(userChoice + "+12="); //Prints string.
-            Console.WriteLine(varAdd); //Prints result.
+                Console.WriteLine(); //Line Break.
 
-            Console.WriteLine(userChoice + "-8="); //Prints string.
-            Console.WriteLine(varSub); //Prints result.
+            Console.WriteLine(userChoice + "+12=" + varAdd); //Prints string, then result.
 
-            Console.WriteLine(userChoice + "x3="); //Prints string.
-            Console.WriteLine(varMul); //Prints result.
+                Console.WriteLine(); //Line Break.
+
+            Console.WriteLine(userChoice + "-8=" + varSub); //Prints string, then result.
+
+                Console.WriteLine(); //Line Break.
+
+            Console.WriteLine(userChoice + "x3=" + varMul); //Prints string, then result.
+            
+            Console.ReadLine(); //Allows window to remain open until user closes.
         }
     }
 }
