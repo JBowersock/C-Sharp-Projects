@@ -11,12 +11,13 @@ namespace CallingMethodsAssignemnt
         static void Main(string[] args)
         {
             ClassOne assignment = new ClassOne(); //Instantiating the created 'ClassOne' class.
-            int varAdd = ClassOne.Addition(); //Integer variable. Calls a method from 'ClassOne'.
-            int varSub = ClassOne.Subtract(); //Integer variable. Calls a method from 'ClassOne'.
-            int varMul = ClassOne.Multiply(); //Integer variable. Calls a method from 'ClassOne'.
 
             Console.WriteLine("What number would you like us to do math operations on?"); //Prints string.
             int userChoice = Convert.ToInt32(Console.ReadLine()); //Requests user input.
+
+            int varAdd = assignment.Addition(userChoice); //Integer variable. Calls instantiated method. Parameter 'int userChoice'.
+            int varSub = assignment.Subtract(userChoice); //Integer variable. Calls instantiated method. Parameter 'int userChoice'.
+            int varMul = assignment.Multiply(userChoice); //Integer variable. Calls instantiated method. Parameter 'int userChoice'.
 
             Console.WriteLine(userChoice + "+12="); //Prints string.
             Console.WriteLine(varAdd); //Prints result.

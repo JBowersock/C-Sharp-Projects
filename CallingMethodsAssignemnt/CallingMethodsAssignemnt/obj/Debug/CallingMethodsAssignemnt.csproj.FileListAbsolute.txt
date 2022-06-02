@@ -1,2 +1,7 @@
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.csproj.AssemblyReference.cache
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\bin\Debug\CallingMethodsAssignemnt.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\bin\Debug\CallingMethodsAssignemnt.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\bin\Debug\CallingMethodsAssignemnt.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\CallingMethodsAssignemnt\CallingMethodsAssignemnt\obj\Debug\CallingMethodsAssignemnt.pdb
