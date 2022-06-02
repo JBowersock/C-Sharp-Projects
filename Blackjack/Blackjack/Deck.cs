@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Blackjack
 {
-    public class Deck //adding 'public' here let's the Program.cs file access this one.
+    public class Deck //(Note: Made public for access).
     {
-        public Deck()
+        public Deck() //(Note: Made public for access).
         {
             //Constructor. A method that is called as soon as an object is created. The first thing it does is instantiates its property (Cards) as an empty list of Cards.
             //The Constructor creates the lists, and immediatly instantiates them with values.
@@ -20,9 +20,9 @@ namespace Blackjack
                 "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
             };
 
-            foreach (string face in Faces)
+            foreach (string face in Faces) //ForEach Loop
             {
-                foreach (string suit in Suits)
+                foreach (string suit in Suits) //ForEach Loop
                 {
                     Card card = new Card();
                     card.Suit = suit;
@@ -31,6 +31,6 @@ namespace Blackjack
                 }
             }
         }
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } //Saying has a property (public). Lists from 'Cards' from 'Card'. Then you can 'get' or 'set' the property.
     }
 }
