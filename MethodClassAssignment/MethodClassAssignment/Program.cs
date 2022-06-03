@@ -22,8 +22,8 @@ namespace MethodClassAssignment
 
                 Console.WriteLine(); //Line Break.
 
-            Console.WriteLine("Results:"); //Prints string.
-            Console.WriteLine(userInput2); //Prints second user input.
+            int result = assignment.methodOne(userInput2); //Integer variable. Calls instantiated method. With parameters.
+            Console.WriteLine("Result: " + result); //Prints string.
 
             Console.ReadLine(); //Allows window to remain open until user closes.
         }

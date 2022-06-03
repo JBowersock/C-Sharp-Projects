@@ -8,10 +8,9 @@ namespace MethodClassAssignment
 {
     public class ClassOne
     {
-        public int methodOne(int userInput1, int userInput2)
+        public static void methodOne(int userInput1, int userInput2)
         {
-            int mathOperation = userInput1 + 12;
-
+            int mathOperation = userInput1 * 3;
             return userInput2;
         }
     }
