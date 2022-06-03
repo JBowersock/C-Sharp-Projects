@@ -12,8 +12,8 @@ namespace MethodsAndObjectsAssignment
         {
             //Step 4.
             Employee employee = new Employee();
-            employee.FirstName = new List<string> { "Sample" };
-            employee.LastName = new List<string> { "Student" };
+            employee.FirstName = "Sample";
+            employee.LastName = "Student";
 
             //Step 5.
             employee.SayName();
