@@ -10,8 +10,14 @@ namespace Blackjack
     {
         static void Main(string[] args)
         {
+            //Game game = new Game();
+            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+            //game.ListPlayers();
+            //game.Play();
+            //Console.ReadLine();
+
             Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
-            deck.Shuffle();
+            deck.Shuffle(3); //Shuffles deck 3x.
 
             foreach (Card card in deck.Cards) //For Loop
             {
