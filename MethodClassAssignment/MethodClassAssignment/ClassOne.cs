@@ -8,10 +8,11 @@ namespace MethodClassAssignment
 {
     public class ClassOne
     {
-        public static void methodOne(int userInput1, int userInput2)
+        //Step 1.
+        public void methodOne(int userInput1, int userInput2)
         {
-            int mathOperation = userInput1 * 3;
-            return userInput2;
+            int mathOp = userInput1 + 3; //Assigning a math operation to a variable. (note: this isnt used, just for assignment.)
+            Console.WriteLine(userInput2); //Prints input.
         }
     }
 }

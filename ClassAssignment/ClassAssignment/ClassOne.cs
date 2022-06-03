@@ -11,8 +11,7 @@ namespace ClassAssignment
         //Step 1 + 6: (Void Method) + (Declare a Method Static)
         public static void methodOne(int userInput) //Property is 'public'. Data Type is 'int'. Name is 'methodOne'. Parameters are 'int userInput'.
         {
-            int divideByTwo = userInput / 2; //Assigning math operation to a variable.
-            return;
+            Console.WriteLine(userInput / 2);
         }
 
         //Step 4. (Method with Output Parameters)

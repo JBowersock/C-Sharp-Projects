@@ -10,20 +10,14 @@ namespace MethodClassAssignment
     {
         public static void Main(string[] args)
         {
+            //Step 2.
             ClassOne assignment = new ClassOne(); //Instantiating the created 'ClassOne' class.
 
-            Console.WriteLine("Enter first number:"); //Prints string.
-            int userInput1 = Convert.ToInt32(Console.ReadLine()); //Requests 1st user input.
+            //Step 3.
+            assignment.methodOne(3, 6); //Calling and passing in two integers to class.
 
-                Console.WriteLine(); //Line Break.
-
-            Console.WriteLine("Enter second number:"); //Prints string.
-            int userInput2 = Convert.ToInt32(Console.ReadLine()); //Requests 2nd user input.
-
-                Console.WriteLine(); //Line Break.
-
-            int result = assignment.methodOne(userInput2); //Integer variable. Calls instantiated method. With parameters.
-            Console.WriteLine("Result: " + result); //Prints string.
+            //Step 4.
+            assignment.methodOne(userInput1: 15, userInput2: 18); //Calling and specifying parameters by name.
 
             Console.ReadLine(); //Allows window to remain open until user closes.
         }
