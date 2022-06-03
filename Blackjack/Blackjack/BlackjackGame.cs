@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blackjack
 {
-    public class BlackjackGame : Game //Made public, then Inhereting from another class. (which is 'Game').
+    public class BlackjackGame : Game, IWalkAway //Made public, then Inhereting from another class. (which is 'Game').
     {
         //In order for the method below to run, it must have an Override for the Abstract method (seen in Game.cs).
         public override void Play()
@@ -17,6 +17,10 @@ namespace Blackjack
         {
             Console.WriteLine("Welcome to Blackjack!");
             base.ListPlayers();
+        }
+        public void WalkAway(Player player) //This must be void in order to cooperate.
+        {
+            throw new NotImplementedException();
         }
     }
 }
