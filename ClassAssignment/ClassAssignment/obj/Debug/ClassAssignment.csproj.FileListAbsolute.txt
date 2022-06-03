@@ -1,0 +1,7 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\bin\Debug\ClassAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.exe
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ClassAssignment\ClassAssignment\obj\Debug\ClassAssignment.pdb

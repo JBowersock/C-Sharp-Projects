@@ -18,13 +18,7 @@ namespace ClassAssignment
             int userInput = Convert.ToInt32(Console.ReadLine()); //Requests user input, then prints their input.
 
             Console.WriteLine("Here is your number divided by two:"); //Prints string.
-            int result = instantiation.methodOne(userInput);
-            Console.WriteLine(result); //Prints result.
-
-            ////Step 4.
-            //int outputParameters;
-            //methodTwo(out outputParameters);
-            //Console.WriteLine(outputParameters); //Prints result.
+            ClassOne.methodOne(userInput);
 
             //Step 5.
             int sum1 = instantiation.methodThree(1, 2);
@@ -32,6 +26,8 @@ namespace ClassAssignment
 
             int sum2 = instantiation.methodThree(1, 2, 3);
             Console.WriteLine("The sum of the three values: " + sum2); //Prints string and result.
+
+            Console.ReadLine(); //Allows window to remain open until user closes.
         }
     }
 }
