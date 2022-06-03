@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Blackjack
 {
-    public class Game //Public, so it's accessable to other classes.
+    public abstract class Game //Public, so it's accessable to other classes.
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
-        public void ListPlayers()
+
+        public abstract void Play();
+
+        public virtual void ListPlayers()
         {
             foreach (string player in Players)
             {
