@@ -25,32 +25,18 @@ namespace MainMethodAssignment
             //
 
             Console.WriteLine("Enter a number in decimal form that you would like us to do math operations on and return as the nearest integer."); //Prints string.
-            double userChoice2 = Convert.ToDouble(Console.ReadLine()); //Requests 2nd user input.
-            double userDecimalEntry = userChoice2; //Giving value of the users entry to a new variable.
-            int decimalToInt = Convert.ToInt32(userDecimalEntry); //Converting the users decimal value to an integer.
-            Console.WriteLine(); //Line Break.
-
-            double varAddv2 = assignment.Addition(userChoice2); //Double variable. Calls instantiated method. Parameter 'userChoice2'.
-            Console.WriteLine(userChoice2 + "+ .12 = " + decimalToInt); //Prints string, then the converted result.
+            decimal userChoice2 = Convert.ToDecimal(Console.ReadLine()); //Requests 2nd user input.
+            int decimalToInt = assignment.Addition(userChoice2);
+            Console.WriteLine("result of the method is: " + decimalToInt); //Prints string and variable.
             Console.WriteLine(); //Line Break.
 
             //
 
             Console.WriteLine("Enter a string that you would like us to convert to an integer, do math operations on and return as an integer."); //Prints string.
-            string userChoice3 = Console.ReadLine();
+            string userChoice3 = Console.ReadLine(); //Requests 3rd user input.
             Console.WriteLine(); //Line Break.
-
-            string xyz = userChoice3;
-            try
-            {
-                int x = Convert.ToInt32(xyz);
-                Console.WriteLine();
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Input string is invalid.");
-            }
-            //string varAddv3 = assignment.Addition(userChoice3); //String variable. Calls instantiated method. Parameter 'userChoice
+            int varAddv3 = assignment.Addition(userChoice3); //String variable. Calls instantiated method. Parameter 'userChoice
+            Console.WriteLine(varAddv3); //Prints variable.
 
             //
 

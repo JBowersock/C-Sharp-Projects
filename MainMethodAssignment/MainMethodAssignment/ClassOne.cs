@@ -15,15 +15,17 @@ namespace MainMethodAssignment
         }
 
         //Method (Note: named similarly to the one above, but done slightly differently).
-        public double Addition(double userChoice2) //Property is 'public'. Data Type is 'Double'. Name is 'Addition'. Then gave the parameter 'Double userChoice'.
+        public int Addition(decimal userChoice2) //Property is 'public'. Data Type is 'int'. Name is 'Addition'. Then gave the parameter 'decimal userChoice'.
         {
-            return userChoice2 + 0.12; //Returns calculation.
+            int num = Convert.ToInt32(userChoice2); //taking userchoice2, converting to and integer and saving to a variable named num.
+            return num + 3; //Returns calculation.
         }
 
         //Method (Note: named similarly to the two above, but done slightly differently).
-        public string Addition(string userChoice3) //Property is 'public'. Data Type is 'string'. Name is 'Addition'. Then gave the parameter 'string userChoice'.
+        public int Addition(string userChoice3) //Property is 'public'. Data Type is 'int'. Name is 'Addition'. Then gave the parameter 'string userChoice'.
         {
-            return userChoice3 + 33; //Returns calculation.
+            int num = Convert.ToInt32(userChoice3); //taking userchoice3, converting to and integer and saving to a variable named num.
+            return num + 33; //Returns calculation.
         }
     }
 }
