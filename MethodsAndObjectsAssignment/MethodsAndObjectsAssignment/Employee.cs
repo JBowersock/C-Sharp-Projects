@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjectsAssignment
 {
+    //Step 3.
     class Employee : Person //Inhereting from the class 'Person'.
     {
-        public List<string> FirstName { get; set; }
-        public List<string> LastName { get; set; }
-
         public int Id = 20; //property
     }
 }

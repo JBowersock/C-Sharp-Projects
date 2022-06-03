@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjectsAssignment
 {
-    public class Person(string firstName, string lastName) //made public.
+    //Step 1.
+    public class Person //made public.
     {
-        public void sayName()
+    public List<string> FirstName { get; set; }
+    public List<string> LastName { get; set; }
+
+        //Step 2.
+        public void SayName()
         {
-            Console.WriteLine("Name:[full name]");
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }
