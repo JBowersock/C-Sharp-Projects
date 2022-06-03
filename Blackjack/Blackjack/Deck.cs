@@ -32,5 +32,22 @@ namespace Blackjack
             }
         }
         public List<Card> Cards { get; set; } //Saying has a property (public). Lists from 'Cards' from 'Card'. Then you can 'get' or 'set' the property.
+
+        public void Shuffle(int times = 1) //'int times = 1' means the
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (Cards.Count > 0) //While Loop
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+            }
+        }
     }
 }

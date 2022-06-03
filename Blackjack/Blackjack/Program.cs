@@ -11,8 +11,7 @@ namespace Blackjack
         static void Main(string[] args)
         {
             Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
-            int timesShuffled = 0;
-            deck = Shuffle(deck, out timesShuffled, 3); //Shuffles deck. //Note: This method shuffles the deck once.
+            deck.Shuffle();
 
             foreach (Card card in deck.Cards) //For Loop
             {
@@ -20,28 +19,7 @@ namespace Blackjack
             }
             Console.WriteLine(); //Line Break.
             Console.WriteLine("Total Cards: " + deck.Cards.Count); //Prints total amount of cards in deck. (Result: 52).
-            Console.WriteLine("Times Shuffled: " + timesShuffled);
             Console.ReadLine(); //Allows window to remain open until user closes.
-        }
-
-        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) //'int times = 1' means the
-        {
-            timesShuffled = 0;
-            for (int i = 0; i < times; i++)
-            {
-                timesShuffled++;
-                List<Card> TempList = new List<Card>();
-                Random random = new Random();
-
-                while (deck.Cards.Count > 0) //While Loop
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    TempList.Add(deck.Cards[randomIndex]);
-                    deck.Cards.RemoveAt(randomIndex);
-                }
-                deck.Cards = TempList;
-            }
-            return deck;
         }
     }
 }
