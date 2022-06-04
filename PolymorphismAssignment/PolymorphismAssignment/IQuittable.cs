@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 namespace PolymorphismAssignment
 {
     //Step 1.
-    public interface IQuittable
+    interface IQuittable //Note: No additional directives here.
     {
-        public void Quit()
-        {
-            Console.Write("This is a sentence.");
-        }
+        void Quit(string a); //Method.
     }
 }
