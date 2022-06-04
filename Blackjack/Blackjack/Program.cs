@@ -15,12 +15,17 @@ namespace Blackjack
             //game.ListPlayers();
             //Console.ReadLine();
 
-            Game game = new BlackjackGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game - player; //Note: a shorter way to write this would be: 'game += player;'
-            game = game + player; //Note: a shorter way to write this would be: 'game -= player;'
+            //Game game = new BlackjackGame();
+            //game.Players = new List<Player>();
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game = game - player; //Note: a shorter way to write this would be: 'game += player;'
+            //game = game + player; //Note: a shorter way to write this would be: 'game -= player;'
+
+            //Card card = new Card();
+            //card.Suit = Suit.Clubs;
+            //int underlyingValue = Convert.ToInt32(Suit.Diamonds);
+            //Console.WriteLine(underlyingValue);
 
             Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
             deck.Shuffle(3); //Shuffles deck 3x.

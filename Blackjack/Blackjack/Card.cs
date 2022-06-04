@@ -16,4 +16,11 @@ namespace Blackjack
         public string Suit { get; set; } //Saying has a property (public), data type (string) and name (Suit). Then you can 'get' or 'set' the property.
         public string Face { get; set; } //Saying has a property (public), data type (string) and name (Face). Then you can 'get' or 'set' the property.
     }
+    //public enum Suit
+    //{
+    //    Clubs,
+    //    Diamonds,
+    //    Hearts,
+    //    Spades
+    //}
 }
