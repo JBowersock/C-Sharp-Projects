@@ -10,32 +10,23 @@ namespace Blackjack
     {
         static void Main(string[] args)
         {
-            //BlackjackGame game = new BlackjackGame();
-            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
-            //game.ListPlayers();
-            //Console.ReadLine();
+            
 
-            //Game game = new BlackjackGame();
-            //game.Players = new List<Player>();
-            //Player player = new Player();
-            //player.Name = "Jesse";
-            //game = game - player; //Note: a shorter way to write this would be: 'game += player;'
-            //game = game + player; //Note: a shorter way to write this would be: 'game -= player;'
+            Card card1 = new Card();
+            Card card2 = card1;
+            card1.Face = Face.Eight;
+            card2.Face = Face.King;
 
-            //Card card = new Card();
-            //card.Suit = Suit.Clubs;
-            //int underlyingValue = Convert.ToInt32(Suit.Diamonds);
-            //Console.WriteLine(underlyingValue);
+            Console.WriteLine(card1.Face);
 
-            Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
-            deck.Shuffle(3); //Shuffles deck 3x.
+            //Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
+            //deck.Shuffle(3); //Shuffles deck 3x.
 
-            foreach (Card card in deck.Cards) //For Loop
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit); //Prints string.
-            }
-            Console.WriteLine(); //Line Break.
-            Console.WriteLine("Total Cards: " + deck.Cards.Count); //Prints total amount of cards in deck. (Result: 52).
+            //foreach (Card card in deck.Cards) //For Loop
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit); //Prints string.
+            //}
+            //Console.WriteLine("Total Cards: " + deck.Cards.Count); //Prints total amount of cards in deck. (Result: 52).
             Console.ReadLine(); //Allows window to remain open until user closes.
         }
     }
