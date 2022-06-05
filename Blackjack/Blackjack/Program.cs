@@ -10,34 +10,37 @@ namespace Blackjack
     {
         static void Main(string[] args)
         {
-            //Card card1 = new Card();
-            //Card card2 = card1;
-            //card1.Face = Face.Eight;
-            //card2.Face = Face.King;
+            Console.WriteLine("Welcome to Blackjack Table!");
+            Console.WriteLine("What is your name?");
+            string playerName = Console.ReadLine();
 
-            //Console.WriteLine(card1.Face);
+                Console.WriteLine(); //Line Break.
 
-            //Deck deck = new Deck(); //Instanitated an object called deck and assigned it to the variable;
+            Console.WriteLine("How much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
 
-            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
+                Console.WriteLine(); //Line Break.
 
-            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21?", playerName);
+            string answer = Console.ReadLine().ToLower(); //.ToLower() makes users entry lowercase, making the process easier.
 
-            //List<int> numberList = new List<int>() { 1, 2, 3, 545, 342, 23 };
-            //int sum = numberList.Sum();
-            //Console.WriteLine(sum);
+                Console.WriteLine(); //Line Break.
 
-            //deck.Shuffle(3); //Shuffles deck 3x.
-
-            //foreach (Card card in deck.Cards) //For Loop
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit); //Prints string.
-            //}
-            //Console.WriteLine("Total Cards: " + deck.Cards.Count); //Prints total amount of cards in deck. (Result: 52).
-
-
-
-            Console.ReadLine(); //Allows window to remain open until user closes.
+            if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new BlackjackGame();
+                game += player; //Adding a 'player' to the 'game'.
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0) //While player is playing and balance is more than zero.
+                {
+                    game.Play();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
+            }
+            Console.WriteLine("Feel free to look around! Goodbye.");
+            Console.Read();
         }
     }
 }

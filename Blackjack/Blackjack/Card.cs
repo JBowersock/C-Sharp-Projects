@@ -10,13 +10,17 @@ namespace Blackjack
     {
         public Suit Suit { get; set; } //Saying has a property (public), data type (string) and name (Suit). Then you can 'get' or 'set' the property.
         public Face Face { get; set; } //Saying has a property (public), data type (string) and name (Face). Then you can 'get' or 'set' the property.
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
     public enum Suit
     {
-        Clubs = 4,
-        Diamonds = 10,
-        Hearts = 12,
-        Spades = 15
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
     }
 
     public enum Face
