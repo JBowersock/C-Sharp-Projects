@@ -23,6 +23,7 @@ namespace Blackjack
             //(Below) Here we're writing some of the data from a game played within a file on the PC. Recording what happened. True (at the end) tells the program to append some text to the file.
             using (StreamWriter file = new StreamWriter(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt", true))
             {
+                file.WriteLine(DateTime.Now); //Records Date/Time to file after a game is played. (above).
                 file.WriteLine(card);
             }
             Deck.Cards.RemoveAt(0); //Removing from list at 0.

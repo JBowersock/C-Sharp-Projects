@@ -15,9 +15,13 @@ namespace Blackjack
             ////(Below) Writing text to a file. Because we used the @ symbol at the beginning, we dont have to use double \\ because it's inside a string.
             ////The @ symbol means to 'read literally'.
             //File.WriteAllText(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt", text);
-            
+
             ////Here we are writing text to a file.
             //File.ReadAllText(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt");
+
+            //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45); //DateTime Method. (Year, Month, Day, Hour, Minute, Second).
+            //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 22); //DateTime Method. (Year, Month, Day, Hour, Minute, Second).
+            //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
 
             Console.WriteLine("Welcome to Blackjack Table!");
             Console.WriteLine("What is your name?");
