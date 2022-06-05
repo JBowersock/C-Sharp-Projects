@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO; //Added this to program.
 
 namespace Blackjack
 {
@@ -10,6 +11,14 @@ namespace Blackjack
     {
         static void Main(string[] args)
         {
+            //string text = "Here is some text."; //Utilizing File I/O to write text to a document (below).
+            ////(Below) Writing text to a file. Because we used the @ symbol at the beginning, we dont have to use double \\ because it's inside a string.
+            ////The @ symbol means to 'read literally'.
+            //File.WriteAllText(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt", text);
+            
+            ////Here we are writing text to a file.
+            //File.ReadAllText(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt");
+
             Console.WriteLine("Welcome to Blackjack Table!");
             Console.WriteLine("What is your name?");
             string playerName = Console.ReadLine();
@@ -37,6 +46,9 @@ namespace Blackjack
                     game.Play();
                 }
                 game -= player;
+
+                    Console.WriteLine(); //Line Break.
+
                 Console.WriteLine("Thank you for playing!");
             }
             Console.WriteLine("Feel free to look around! Goodbye.");
