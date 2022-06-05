@@ -5,3 +5,6 @@ C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Progr
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.CoreCompileInputs.cache
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\obj\Debug\Blackjack.exe
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\bin\Debug\Casino.dll
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\bin\Debug\Casino.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.CopyComplete

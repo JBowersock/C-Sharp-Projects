@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blackjack
+namespace Casino.Blackjack
 {
     public class BlackjackGame : Game, IWalkAway //Made public, then Inhereting from another class. (which is 'Game').
     {

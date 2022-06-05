@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO; //Added this to program.
+using Casino;
+using Casino.Blackjack;
 
 namespace Blackjack
 {
@@ -22,6 +24,10 @@ namespace Blackjack
             //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45); //DateTime Method. (Year, Month, Day, Hour, Minute, Second).
             //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 22); //DateTime Method. (Year, Month, Day, Hour, Minute, Second).
             //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
+
+            const string casinoName = "Grand Hotel and Casino";
+
+            Guid identifier = Guid.NewGuid();
 
             Console.WriteLine("Welcome to Blackjack Table!");
             Console.WriteLine("What is your name?");
@@ -42,6 +48,13 @@ namespace Blackjack
             if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\fileIOPartOneVideo.txt", true))
+                {
+                    file.WriteLine(player.Id); //Records GUID to document (above).
+                }
+
                 Game game = new BlackjackGame();
                 game += player; //Adding a 'player' to the 'game'.
                 player.isActivelyPlaying = true;

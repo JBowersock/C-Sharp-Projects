@@ -1,0 +1,5 @@
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Casino\bin\Debug\Casino.dll
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Casino\bin\Debug\Casino.pdb
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Casino\obj\Debug\Casino.dll
+C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\Blackjack\Casino\obj\Debug\Casino.pdb
