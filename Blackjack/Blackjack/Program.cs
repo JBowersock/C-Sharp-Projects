@@ -35,8 +35,18 @@ namespace Blackjack
 
                 Console.WriteLine(); //Line Break.
 
-            Console.WriteLine("How much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer) //While validAnswer IS FALSE.
+            {
+                Console.WriteLine("And how much money did you bring today?"); //Prints string.
+                validAnswer = Int32.TryParse(Console.ReadLine(), out bank); //TryParse is assinging a value to a result (which here, is 'bank') and sending back to 'bank' 4 lines above.
+                if (!validAnswer) //Saying if NOT validAnswer.
+                {
+                    Console.WriteLine(); //Line Break.
+                    Console.WriteLine("Please enter digits only, no decimals."); //Prints string.
+                }
+            }
 
                 Console.WriteLine(); //Line Break.
 
@@ -60,7 +70,21 @@ namespace Blackjack
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0) //While player is playing and balance is more than zero.
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play(); //Continues game.
+                    }
+                    catch (FraudException) //Catching FraudException.
+                    {
+                        Console.WriteLine("Security! Take this person away!"); //Prints string and value.
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception) //Catching exceptions.
+                    {
+                        Console.WriteLine("Nice try, {0}! You can do better than that!", player.Name); //Prints string and value.
+                        Console.WriteLine(); //Line Break.
+                    }
                 }
                 game -= player;
 

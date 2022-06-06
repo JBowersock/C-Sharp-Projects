@@ -23,11 +23,27 @@ namespace Casino.Blackjack
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle();
-            Console.WriteLine("Place your bet!");
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer) //While validAnswer IS FALSE.
+                {
+                    Console.WriteLine("Place your bet!"); //Prints string.
+                    validAnswer = Int32.TryParse(Console.ReadLine(), out bet); //TryParse is assinging a value to a result (which here, is 'bank') and sending back to 'bank' 4 lines above.
+                    if (!validAnswer) //Saying if NOT validAnswer.
+                    {
+                        Console.WriteLine(); //Line Break.
+                        Console.WriteLine("Please enter digits only, no decimals."); //Prints string.
+                    }
+                }
+                if (bet < 0)
+                {
+                    Console.WriteLine(); //Line Break.
+                    throw new FraudException(); //Throws FraudException.
+                }
+
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)
                 {
