@@ -20,10 +20,11 @@ namespace ConstructorAssignment
             var color2 = "Yellow"; //Assigning a value.
             Console.WriteLine("The second color is {0}.", color2); //Prints string and value.
 
-            Console.WriteLine(); //Line Break
+                Console.WriteLine(); //Line Break
 
             //Step 3.
-            Console.WriteLine("The color Orange comes from combining {0} and {1}!", color1, color2); //Prints string and values.
+            ColorClass colorMethod = new ColorClass("Green", "Blue"); //Instantiating the object class 'ColorClass'.
+            Console.WriteLine("Dont forget about {0} and {1}!", colorMethod.Color3, colorMethod.Color4); //Prints string and values.
 
             Console.ReadLine(); //Allows console to remain open until user closes.
         }

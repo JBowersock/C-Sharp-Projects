@@ -5,3 +5,10 @@ C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Progr
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.CoreCompileInputs.cache
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.exe
 C:\Users\Streaming Desktop\Desktop\The Tech Academy - Software Development Program\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.exe
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.exe
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.pdb
