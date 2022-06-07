@@ -16,21 +16,16 @@ namespace OperatorsAssignment
             //First person.
             personOne.firstName = "Joe"; //Assigning firstName.
             personOne.lastName = "Schmoe"; //Assigning lastName.
+            personOne.id = 001; //Assigning Id.
 
             //Second person.
             personTwo.firstName = "Cindy-Lou"; //Assigning firstName.
             personTwo.lastName = "Who"; //Assigning lastName.
+            personTwo.id = 002; //Assigning Id.
 
             personTwo.sayName(); //Calling method from class 'Person'. (Result: Prints string.)
 
-            if(personOne.id == personTwo.id) //If statement, Parameters set with Equality Operator.
-            {
-                Console.WriteLine("The id for these two people match!"); //Prints string.
-            }
-            else //Else statement.
-            {
-                Console.WriteLine("The id for these two people do not match."); //Prints string.
-            }
+            Console.WriteLine(personOne == personTwo); //Checking to see personOne & Two are the same.
 
             Console.ReadLine(); //Allows window to remain open until user closes.
         }
