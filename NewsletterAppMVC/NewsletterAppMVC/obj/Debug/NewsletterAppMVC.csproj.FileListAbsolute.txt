@@ -72,7 +72,6 @@ C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\Newslet
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Newtonsoft.Json.xml
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Antlr3.Runtime.pdb
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.AssemblyReference.cache
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CoreCompileInputs.cache
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CopyComplete
 C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.dll
