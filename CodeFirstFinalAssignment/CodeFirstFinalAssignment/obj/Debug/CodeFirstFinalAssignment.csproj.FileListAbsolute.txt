@@ -1,0 +1,12 @@
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\CodeFirstFinalAssignment.exe.config
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\CodeFirstFinalAssignment.exe
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\CodeFirstFinalAssignment.pdb
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\EntityFramework.dll
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\EntityFramework.xml
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\obj\Debug\CodeFirstFinalAssignment.csproj.AssemblyReference.cache
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\obj\Debug\CodeFirstFinalAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\obj\Debug\CodeFirstFinalAssignment.csproj.CopyComplete
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\obj\Debug\CodeFirstFinalAssignment.exe
+C:\Users\Streaming Desktop\Desktop\TTA\C-Sharp-Projects\CodeFirstFinalAssignment\CodeFirstFinalAssignment\obj\Debug\CodeFirstFinalAssignment.pdb
